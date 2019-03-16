@@ -1,0 +1,26 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 3em;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    width: 700px;
+    text-align: center;
+
+}
+
+img {
+    width: 450px;
+    height: 300px;
+    margin: 5px;
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
